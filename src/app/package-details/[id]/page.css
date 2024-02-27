@@ -1,0 +1,77 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.package-image {
+    flex: 1 1 40%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.package-image img {
+    width: 110%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 5px solid #ccc;
+}
+
+.package-content {
+    flex: 1 1 60%;
+    padding-right: 20px;
+}
+
+.package-content p strong{
+    font-weight: bold;
+}
+
+
+.package-details p {
+    margin: 5px 45px;
+}
+
+.package-details p strong {
+    font-weight: bold;
+}
+
+.package-button {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.package-title {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50; /* Fondo verde */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    border: 1px solid #45a049; /* Borde más oscuro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.popup i {
+    color: #fff; /* Color del ícono blanco */
+    font-size: 24px;
+    margin-right: 10px;
+}
